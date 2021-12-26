@@ -4,8 +4,6 @@ $font-general: Vidaloka;
 $font-detodo: Cairo;
 
 
-
-
 .body{
     padding: 0%;
     margin: 0%;
@@ -31,7 +29,7 @@ $font-detodo: Cairo;
 //MAIN//
 .main{
     display: flex;
-    margin: 0;
+    margin: 2%;
     padding: 0;
     width: 100%;
     height: 100%;
@@ -94,23 +92,8 @@ $font-detodo: Cairo;
     display: flex;
     justify-content: center;
     margin-bottom: 2%;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //END MAIN//
 
@@ -204,3 +187,14 @@ $font-detodo: Cairo;
     font-size:13px;
     margin-bottom:0;
   }
+
+
+  //OBEJTOS HTML//
+.cardobjetos{
+    padding: 0;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
