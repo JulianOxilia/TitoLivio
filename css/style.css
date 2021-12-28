@@ -28,7 +28,7 @@
   margin-left: 20%; }
 
 .text {
-  font-family: Vidaloka;
+  font-family: Vidaloka, sans-serif;
   margin-right: 20%;
   padding: 0 90px; }
 
@@ -143,3 +143,5 @@
   display: flex;
   justify-content: center;
   align-items: center; }
+
+  
