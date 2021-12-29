@@ -85,12 +85,12 @@
   margin-bottom: 2%; }
 
 .footer-dark {
+  width: 100%;
+  padding: 0%;
+  bottom: 0%;
   padding: 50px 0;
   color: #f0f9ff;
-  background-color: #282d32;
-  position: fixed;
-  width: 100%;
-  bottom: 0%; }
+  background-color: #282d32; }
   @media (max-width: 400px) {
     .footer-dark {
       position: relative;
