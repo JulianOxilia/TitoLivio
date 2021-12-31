@@ -1,14 +1,18 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 $font-general: Vidaloka;
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
 $font-detodo: Cairo;
+$color-items: white;
+$font-sizes: ("sm": 12px, "md": 20px, "large": 36px,);
 
 
 
-.body{
-    padding: 0%;
-    margin: 0%;
-}
+
+
+
+
+
 
 .boton{
   width: 200px;
@@ -78,6 +82,51 @@ $font-detodo: Cairo;
   
   
 }
+//OBEJTOS MAIN//
+.item1{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 600px;
+  justify-content: space-evenly;
+  background-color: gray;
+  h3{
+    text-align: center;
+    font-size: map-get($font-sizes, large);  
+    color: $color-items;
+  }
+  a{
+    font-size: map-get($font-sizes, md);   
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+  }
+}
+
+
+.item2{
+  @extend .item1
+}
+
+.item3{
+  @extend .item1
+}
+
+.imgitem1{
+  display: inline-block;
+  width: 100%;
+  height: 70%;
+}
+
+.imgitem2{
+  @extend .imgitem1
+}
+.imgitem3{
+  @extend .imgitem1
+}
+
+  
 
 
 .info{
@@ -262,6 +311,8 @@ $font-detodo: Cairo;
     justify-content: center;
     align-items: center;
 }
+
+
 
 //QUIERO VENDER//
 .boton{
