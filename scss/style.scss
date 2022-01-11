@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap');
+$font-mobile: Source;
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 $font-general: Vidaloka;
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
@@ -52,7 +53,7 @@ $font-sizes: ("sm": 12px, "md": 20px, "large": 36px,);
     width: 100%;
     margin-left: 20%;
 }
-@media (max-width: 420px) {
+@media screen and (max-width: 420px) {
   .carousel{
     display: flex;
     margin-left: 1.5%;
@@ -66,11 +67,12 @@ $font-sizes: ("sm": 12px, "md": 20px, "large": 36px,);
     padding: 0 90px;
 
 }
-@media (max-width:420px) {
+@media screen and (max-width:420px) {
   .text{
-  display: inline-block;
-  font-family: $font-general;
-  font-style: none;
+  width: auto;
+  margin-right: 20%;
+  padding:  0px;
+  font-family: $font-mobile;
   text-align: center;
   margin-top: 55%;
   margin-left: -85%;
@@ -79,6 +81,7 @@ $font-sizes: ("sm": 12px, "md": 20px, "large": 36px,);
   
 
   }
+  
   
   
 }
@@ -103,6 +106,30 @@ $font-sizes: ("sm": 12px, "md": 20px, "large": 36px,);
     color: white;
   }
 }
+@media screen and (max-width: 420px) {
+  .item1{
+    margin-bottom: 30%;
+    width: auto;
+    float: none;
+    flex-flow: row;
+    background-color: beige;
+
+  }} 
+@media screen and (max-width: 420px) {
+  .item1 h3{
+    width: auto;
+    float: none;
+    color: black;
+    font-size: 30px;
+    font-family: $font-mobile;
+       
+  }} 
+  @media screen and (max-width: 420px) {
+    .item1 a{
+      width: auto;
+      float: none;
+      margin: 38%;
+    }} 
 
 
 .item2{
@@ -126,16 +153,19 @@ $font-sizes: ("sm": 12px, "md": 20px, "large": 36px,);
   @extend .imgitem1
 }
 
+
+
   
 
 
 .info{
+    display: flex;
     font-size: 30px;
     font-family: $font-detodo;
-    display: flex;
     margin: 2%;
     text-align: center;
     justify-content: center;
+    border: 1px;
 
 }
 
@@ -314,6 +344,7 @@ $font-sizes: ("sm": 12px, "md": 20px, "large": 36px,);
 
 
 
+
 //QUIERO VENDER//
 .boton{
   display: inline-block;
@@ -321,6 +352,12 @@ $font-sizes: ("sm": 12px, "md": 20px, "large": 36px,);
   height: 3rem;
   align-items: center;
   margin-left: 40%;
+  
+}
+
+//FAQ//
+.objetoslink{
+  color: black;
   
 }
 
